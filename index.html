@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ricky and Morty</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>  
+        <audio id="backgroundAudio" src="themeSong.mp3" autoplay loop></audio> 
+        <header>
+            <div class="characters-container headerChild">
+                <h2>CHARACTERS</h2>     
+                <button id="getChar">Get result</button>           
+                <input id="userInputChar" type="number" placeholder = "Insert ID">                
+            </div>
+            <div class="episodes-container headerChild">
+                <h2>EPISODES</h2>
+                <button id="getEp">Get Result</button>
+                <input id="userInputEp" type="number" placeholder='Insert ID'>
+                
+            </div>
+            <div class="locations-cotainer headerChild">
+                <h2>LOCATIONS</h2>
+                <button id="getLoc">Get Result</button>
+                <input id="userInputLoc" type="number" placeholder='Insert ID'>
+            </div>
+        </header>
+        <table>            
+           <thead>
+
+           </thead>        
+           <tbody>
+
+           </tbody>                               
+        <table>
+        <script src="forChar.js" async defer></script>
+        <script src="forEp.js" async defer></script>
+        <script src="forLoc.js" async defer></script>
+        <script src="general.js" async defer></script>
+    </body>
+</html>
